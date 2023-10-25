@@ -2,8 +2,11 @@ package com.cupcakestore.store.repository;
 
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
 import com.cupcakestore.store.models.User;
 
+@Repository
 // Interface UserRepository
 // Lembrete: Interfaces definem métodos básicos que podem ser utilizados. Elas também podem extender de outras classes e pegar seus métodos para si. 
 // Nesse caso, a interface abaixo servirá como um repositório de funções extendidas da classe JpaRepository, que permite uma comunicação com o banco de dados
