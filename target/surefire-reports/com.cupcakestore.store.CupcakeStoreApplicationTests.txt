@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cupcakestore.store.CupcakeStoreApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.085 s - in com.cupcakestore.store.CupcakeStoreApplicationTests

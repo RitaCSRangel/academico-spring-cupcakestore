@@ -1,1 +1,1 @@
-web: java -jar target/spring0cupcakestore-1.0.0.jar
+web: java cupcakestore-0.0.1-SNAPSHOT.jar
