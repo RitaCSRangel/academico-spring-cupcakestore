@@ -36,6 +36,7 @@ public class UserOrdersService {
     // instâncias da classe UserOrdersService poderão usar os artigos da classe
     // OrderRepository por padrão por conta da injection/injeção
     // feita via construtor.
+
     @Autowired
     public UserOrdersService(UserOrderRepository ordersRepo) {
         this.ordersRepo = ordersRepo;
