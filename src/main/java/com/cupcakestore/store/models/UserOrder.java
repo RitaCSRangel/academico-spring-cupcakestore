@@ -30,6 +30,7 @@ public class UserOrder implements Serializable {
 	private Long userId;
 	private Float value;
 	private String status;
+	private Boolean rated;
 
 	// -------- Método Construtor --------
 
@@ -49,11 +50,13 @@ public class UserOrder implements Serializable {
 	public UserOrder(
 			Long userId,
 			Float value,
-			String status) {
+			String status,
+			Boolean rated) {
 
 		this.userId = userId;
 		this.value = value;
 		this.status = status;
+		this.rated = rated;
 	}
 
 	// -------- Métodos Getters e Setters --------
@@ -95,5 +98,14 @@ public class UserOrder implements Serializable {
 
 	public void setStatus(String status) {
 		this.status = status;
+	}
+
+	// rated
+	public Boolean getRated() {
+		return rated;
+	}
+
+	public void setRated(Boolean rated) {
+		this.rated = rated;
 	}
 }
