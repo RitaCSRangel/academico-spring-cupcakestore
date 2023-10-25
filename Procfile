@@ -1,1 +1,1 @@
-web: java cupcakestore-0.0.1-SNAPSHOT.jar
+web: java "-Dspring.profiles.active=prod" cupcakestore-0.0.1-SNAPSHOT.jar
